@@ -17,12 +17,12 @@ redis:
   idle_timeout: 200
 
 elasticsearch:
-  hosts: ["127.0.0.1:9200"]
+  hosts: ["http://127.0.0.1:9200"]
   username: "elastic"
   password: "elastic"
 
 kafka:
-  hosts: ["127.0.0.1:9091"]
+  hosts: ["host.docker.internal:9092"]
   order-topic: "shop-order"
 
 zap:

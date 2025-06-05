@@ -10,6 +10,10 @@ github.com/HeRedBo/pkg/logger v0.0.0-20250528065246-5c76d2da7704 h1:yvChszDK4iY/
 github.com/HeRedBo/pkg/logger v0.0.0-20250528065246-5c76d2da7704/go.mod h1:etN05jZZN8yAjOYzmfnSn0RSGGTqyLuMQ+ak6SEZLqM=
 github.com/HeRedBo/pkg/mq v0.0.0-20250528065246-5c76d2da7704 h1:8VCULp0SLGhFnqGCK8JddBLW5FxCDYvHLm2Zf0pXX0I=
 github.com/HeRedBo/pkg/mq v0.0.0-20250528065246-5c76d2da7704/go.mod h1:0hLkuf4TqyzGghsrESGqJvuMmdZhf9aUrnr605/bniA=
+github.com/HeRedBo/pkg/shutdown v0.0.0-20250528065246-5c76d2da7704 h1:tG/P/SjICe3ys0YEs+uo1sIinlEIRV86tOlk+DWCDKo=
+github.com/HeRedBo/pkg/shutdown v0.0.0-20250528065246-5c76d2da7704/go.mod h1:CuixbHhY0Cwa6spjSctETWxuj3nOH0PpT6uSXtX/H1M=
+github.com/HeRedBo/pkg/strutil v0.0.0-20250528065246-5c76d2da7704 h1:/lJzz9e/fByqbjvD0xanQaDo4vJquiJBER0QUnXmK/Y=
+github.com/HeRedBo/pkg/strutil v0.0.0-20250528065246-5c76d2da7704/go.mod h1:OZbZZBSAgnZTLQzPMKXL0jW0X5MIct6pXalSERcAn80=
 github.com/IBM/sarama v1.45.1 h1:nY30XqYpqyXOXSNoe2XCgjj9jklGM1Ye94ierUb1jQ0=
 github.com/IBM/sarama v1.45.1/go.mod h1:qifDhA3VWSrQ1TjSMyxDl3nYL3oX2C83u+G6L79sq4w=
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=

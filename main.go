@@ -4,8 +4,10 @@ import (
 	"github.com/HeRedBo/pkg/cache"
 	"github.com/HeRedBo/pkg/es"
 	"github.com/HeRedBo/pkg/logger"
+	"github.com/HeRedBo/pkg/shutdown"
 	"github.com/go-redis/redis/v7"
 	"go.uber.org/zap"
+	"order-consumer/consumer"
 	"order-consumer/global"
 )
 
@@ -47,5 +49,14 @@ func initESClient() {
 }
 
 func main() {
+	consumer.StartOrderConsumer()
 
+	shutdown.NewHook().Close(
+		func() {
+			consumer.CloseOrderConsumer()
+		},
+		func() {
+			es.CloseAll()
+		},
+	)
 }

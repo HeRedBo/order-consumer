@@ -17,6 +17,8 @@ require (
 
 require (
 	github.com/HeRedBo/pkg/errors v1.0.0 // indirect
+	github.com/HeRedBo/pkg/shutdown v0.0.0-20250528065246-5c76d2da7704 // indirect
+	github.com/HeRedBo/pkg/strutil v0.0.0-20250528065246-5c76d2da7704 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/eapache/go-resiliency v1.7.0 // indirect
 	github.com/eapache/go-xerial-snappy v0.0.0-20230731223053-c322873962e3 // indirect

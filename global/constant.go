@@ -1,5 +1,9 @@
 package global
 
 const (
-	IndexName = "shop-order"
+	OrderTopic      = "shop-order"
+	IndexName       = "shop-order"
+	OperationCreate = "create"
+	OperationUpdate = "update"
+	OperationDelete = "delete"
 )
